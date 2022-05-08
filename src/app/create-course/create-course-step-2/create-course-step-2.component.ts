@@ -22,10 +22,10 @@ export class CreateCourseStep2Component implements OnInit {
             ],
             promoStartAt: [null],
             promoEndAt: [null],
+            thumbnail: [null],
         },
         {
             validators: [createPromoRangeValidator()],
-            updateOn: 'blur',
         }
     );
 
